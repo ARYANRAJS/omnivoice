@@ -1,0 +1,70 @@
+# Environment & Secrets
+.env
+.env.*
+!.env.example
+
+# Heavy AI Models & Weights
+*.pth
+*.pt
+*.bin
+*.safetensors
+*.onnx
+*.gguf
+*.onnx.*
+models/
+checkpoint*/
+weights/
+
+# Python Caches & Virtual Envs
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+.pytest_cache/
+
+# Data & Audio Storage
+data/
+voices/
+output.wav
+temp_recording.wav
+preview.wav
+*.wav
+*.mp3
+*.ogg
+*.flac
+
+# IDE & Editor Settings
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS System Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs & Temporary Scratch Files
+*.log
+notes.txt
+"Create file notes.txt"
